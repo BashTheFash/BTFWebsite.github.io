@@ -111,3 +111,23 @@ img {
 img.gif {
     border: 2px solid red;
 }
+/* Tags */
+.tags {
+    margin-top: 10px;
+}
+.tag {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Footer Icons */
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+}
