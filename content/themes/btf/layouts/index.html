@@ -1,7 +1,10 @@
-{{ define "main" }}
-<div id="home-jumbotron" class="jumbotron text-center">
-  <h1 class="title">{{ .Site.Title }}</h1>
-  <p>{{ .Site.Params.about }}</p>
-  <a class="btn btn-primary" href="/about/">Learn More About Us</a>
-</div>
-{{ end }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{ partial "head.html" . }}
+</head>
+<body>
+    {{ partial "header.html" . }}
+    <main>
+        <h1>Welcome to BashTheFash</h1>
+        <p>This is the homepage content.</p>
